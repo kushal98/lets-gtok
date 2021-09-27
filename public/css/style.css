@@ -582,3 +582,12 @@ color: #777;
 .cursor{
 	cursor: pointer;
 }
+
+
+#card {
+	background: #fff;
+}
+
+#middle {
+	padding: 100px 0;
+}
