@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
-import { About } from './components/about'
-import { Services } from './components/services'
 import { Contact } from './components/contact'
 import { Middle } from './components/middle'
 import JsonData from './data/data.json'
@@ -17,9 +15,7 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
       <Middle />
-      <Services data={landingPageData.Services} />
       <Contact data={landingPageData.Contact} />
     </div>
   )
